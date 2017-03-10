@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>strategy</OriginalElement>
+  <nodes>
+    <node x="5.25" y="-107.5">strategy.Duck</node>
+    <node x="530.0" y="72.5">strategy.changable_algorithm.FlyNoWay</node>
+    <node x="-28.5" y="70.5">strategy.MallardDuck</node>
+    <node x="461.25" y="-67.5">strategy.changable_algorithm.IFlyBehavior</node>
+    <node x="390.0" y="72.5">strategy.changable_algorithm.FlyWithWings</node>
+    <node x="130.0" y="70.5">strategy.ModuleDuck</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="strategy.ModuleDuck" target="strategy.changable_algorithm.FlyNoWay">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="strategy.ModuleDuck" target="strategy.Duck">
+      <point x="0.0" y="-16.5" />
+      <point x="202.0" y="58.0" />
+      <point x="148.5" y="58.0" />
+      <point x="17.25" y="16.5" />
+    </edge>
+    <edge source="strategy.MallardDuck" target="strategy.Duck">
+      <point x="0.0" y="-16.5" />
+      <point x="48.5" y="59.0" />
+      <point x="114.0" y="58.0" />
+      <point x="-17.25" y="16.5" />
+    </edge>
+    <edge source="strategy.changable_algorithm.FlyWithWings" target="strategy.changable_algorithm.IFlyBehavior">
+      <point x="0.0" y="-16.5" />
+      <point x="453.0" y="60.0" />
+      <point x="491.0" y="60.0" />
+      <point x="-28.75" y="16.5" />
+    </edge>
+    <edge source="strategy.MallardDuck" target="strategy.changable_algorithm.FlyWithWings">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="strategy.Duck" target="strategy.changable_algorithm.IFlyBehavior">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="strategy.changable_algorithm.FlyNoWay" target="strategy.changable_algorithm.IFlyBehavior">
+      <point x="0.0" y="-16.5" />
+      <point x="586.5" y="60.0" />
+      <point x="548.5" y="60.0" />
+      <point x="28.75" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="307.0" y="12.0" />
+  <SelectedNodes>
+    <node>strategy.ModuleDuck</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

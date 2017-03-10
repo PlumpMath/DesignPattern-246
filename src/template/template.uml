@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>template</OriginalElement>
+  <nodes>
+    <node x="170.0" y="208.0">template.TeaMaker</node>
+    <node x="53.0" y="0.0">template.IDrinkMakerBehavior</node>
+    <node x="0.0" y="208.0">template.CoffeeMaker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="template.TeaMaker" target="template.IDrinkMakerBehavior">
+      <point x="0.0" y="-41.5" />
+      <point x="245.0" y="183.0" />
+      <point x="213.5" y="183.0" />
+      <point x="53.5" y="79.0" />
+    </edge>
+    <edge source="template.CoffeeMaker" target="template.IDrinkMakerBehavior">
+      <point x="0.0" y="-41.5" />
+      <point x="75.0" y="183.0" />
+      <point x="106.5" y="183.0" />
+      <point x="-53.5" y="79.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="172.0" y="199.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

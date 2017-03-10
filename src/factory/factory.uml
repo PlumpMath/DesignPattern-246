@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>factory</OriginalElement>
+  <nodes>
+    <node x="1012.8810185185184" y="781.0">factory.abstract_factory.store.ChicagoPizzaStore</node>
+    <node x="1502.1310185185184" y="0.0">factory.abstract_factory.raw.Pepperoni</node>
+    <node x="851.6185185185185" y="169.0">factory.abstract_factory.factory.AbstractFactory</node>
+    <node x="584.0" y="488.0">factory.abstract_factory.factory.ChicagoPizzaFactory</node>
+    <node x="325.0" y="538.0">factory.abstract_factory.store.PizzaStore</node>
+    <node x="0.0" y="488.0">factory.abstract_factory.factory.NYPizzaFactory</node>
+    <node x="909.0" y="537.5">factory.abstract_factory.pizza.SaucePizza</node>
+    <node x="1108.5125" y="0.0">factory.abstract_factory.raw.Cheese</node>
+    <node x="1156.0" y="537.5">factory.abstract_factory.pizza.DoughPizza</node>
+    <node x="1626.1310185185184" y="0.0">factory.abstract_factory.raw.Dough</node>
+    <node x="1314.1310185185184" y="0.0">factory.abstract_factory.raw.Clams</node>
+    <node x="0.0" y="1017.0">factory.factory_method.ConcreteFactoryB</node>
+    <node x="773.8810185185184" y="781.0">factory.abstract_factory.store.NYPizzaStore</node>
+    <node x="1408.1310185185184" y="0.0">factory.abstract_factory.raw.Sauce</node>
+    <node x="243.0" y="1017.0">factory.factory_method.ConcreteFactoryA</node>
+    <node x="561.7624999999999" y="0.0">factory.abstract_factory.raw.Veggie</node>
+    <node x="1179.6185185185186" y="93.0">factory.abstract_factory.pizza.Pizza</node>
+    <node x="1403.0" y="537.5">factory.abstract_factory.pizza.CheesePizza</node>
+    <node x="151.0" y="884.0">factory.factory_method.FactoryMethod</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory.abstract_factory.factory.ChicagoPizzaFactory" target="factory.abstract_factory.factory.AbstractFactory">
+      <point x="76.25" y="-91.5" />
+      <point x="812.75" y="468.0" />
+      <point x="943.1185185185185" y="468.0" />
+      <point x="-61.0" y="91.5" />
+    </edge>
+    <edge source="factory.factory_method.ConcreteFactoryB" target="factory.factory_method.FactoryMethod">
+      <point x="0.0" y="-29.0" />
+      <point x="111.5" y="992.0" />
+      <point x="192.0" y="992.0" />
+      <point x="-41.0" y="41.5" />
+    </edge>
+    <edge source="factory.abstract_factory.store.ChicagoPizzaStore" target="factory.abstract_factory.store.PizzaStore">
+      <point x="-87.60000000000014" y="-29.0" />
+      <point x="1034.7810185185183" y="711.0" />
+      <point x="504.25" y="711.0" />
+      <point x="59.75" y="41.5" />
+    </edge>
+    <edge source="factory.abstract_factory.factory.NYPizzaFactory" target="factory.abstract_factory.factory.AbstractFactory">
+      <point x="76.25" y="-91.5" />
+      <point x="228.75" y="458.0" />
+      <point x="882.1185185185185" y="458.0" />
+      <point x="-122.0" y="91.5" />
+    </edge>
+    <edge source="factory.abstract_factory.pizza.DoughPizza" target="factory.abstract_factory.pizza.Pizza">
+      <point x="56.75" y="-42.0" />
+      <point x="1326.25" y="468.0" />
+      <point x="1364.6185185185186" y="468.0" />
+      <point x="0.0" y="167.5" />
+    </edge>
+    <edge source="factory.abstract_factory.store.NYPizzaStore" target="factory.abstract_factory.store.PizzaStore">
+      <point x="-43.799999999999955" y="-29.0" />
+      <point x="839.5810185185185" y="751.0" />
+      <point x="384.75" y="751.0" />
+      <point x="-59.75" y="41.5" />
+    </edge>
+    <edge source="factory.abstract_factory.pizza.CheesePizza" target="factory.abstract_factory.pizza.Pizza">
+      <point x="56.75" y="-42.0" />
+      <point x="1573.25" y="468.0" />
+      <point x="1487.9518518518519" y="468.0" />
+      <point x="123.33333333333326" y="167.5" />
+    </edge>
+    <edge source="factory.abstract_factory.pizza.SaucePizza" target="factory.abstract_factory.pizza.Pizza">
+      <point x="56.75" y="-42.0" />
+      <point x="1079.25" y="468.0" />
+      <point x="1241.2851851851854" y="468.0" />
+      <point x="-123.33333333333326" y="167.5" />
+    </edge>
+    <edge source="factory.factory_method.ConcreteFactoryA" target="factory.factory_method.FactoryMethod">
+      <point x="0.0" y="-29.0" />
+      <point x="354.5" y="992.0" />
+      <point x="274.0" y="992.0" />
+      <point x="41.0" y="41.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7526223776223776" x="858.5" y="562.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

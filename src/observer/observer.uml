@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>observer</OriginalElement>
+  <nodes>
+    <node x="232.0" y="0.0">observer.func.IDisplayData</node>
+    <node x="0.0" y="83.0">observer.observer.CurrentConditionDisplay</node>
+    <node x="-223.5" y="-56.0">observer.subject.ISubject</node>
+    <node x="-240.0" y="79.0">observer.subject.WeatherData</node>
+    <node x="25.75" y="0.0">observer.observer.IObserver</node>
+    <node x="220.0" y="83.0">observer.observer.StatisticDisplay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="observer.observer.CurrentConditionDisplay" target="observer.subject.ISubject">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="observer.observer.StatisticDisplay" target="observer.observer.IObserver">
+      <point x="-33.75" y="-16.5" />
+      <point x="253.75" y="53.0" />
+      <point x="98.5" y="53.0" />
+      <point x="24.25" y="16.5" />
+    </edge>
+    <edge source="observer.observer.StatisticDisplay" target="observer.subject.ISubject">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="observer.observer.CurrentConditionDisplay" target="observer.observer.IObserver">
+      <point x="-50.0" y="-16.5" />
+      <point x="-24.25" y="16.5" />
+    </edge>
+    <edge source="observer.observer.StatisticDisplay" target="observer.func.IDisplayData">
+      <point x="33.75" y="-16.5" />
+      <point x="29.75" y="16.5" />
+    </edge>
+    <edge source="observer.subject.WeatherData" target="observer.observer.IObserver">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="observer.observer.CurrentConditionDisplay" target="observer.func.IDisplayData">
+      <point x="50.0" y="-16.5" />
+      <point x="150.0" y="63.0" />
+      <point x="261.75" y="63.0" />
+      <point x="-29.75" y="16.5" />
+    </edge>
+    <edge source="observer.subject.WeatherData" target="observer.subject.ISubject">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="57.5" y="30.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
